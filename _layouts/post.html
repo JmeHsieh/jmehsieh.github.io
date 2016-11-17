@@ -28,7 +28,8 @@ layout: default
 
 				var disqus_config = function () {
 					// Replace PAGE_URL with your page's canonical URL variable
-					this.page.url = "{{ page.url }}";
+					var domain_name = 'jmehsieh.com'
+					this.page.url = "http://" + domain_name + "{{ page.url }}";
 
 					// Replace PAGE_IDENTIFIER with your page's unique identifier variable
 					this.page.identifier = "{{ page.title }}";
