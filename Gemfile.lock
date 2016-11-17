@@ -141,6 +141,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 104)
   jekyll-feed (~> 0.6)
+  json
 
 RUBY VERSION
    ruby 2.3.1p112

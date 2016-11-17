@@ -4,6 +4,7 @@ email: jmehsieh@gmail.com
 description: "Hi, I am Jo Yuan."
 baseurl: ""
 url: "http://jmehsieh.com"
+permalink: ":categories/:year-:month-:day-:title/"
 
 # Sass
 sass:
