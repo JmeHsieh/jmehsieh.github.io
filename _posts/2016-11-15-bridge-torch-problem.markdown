@@ -104,7 +104,7 @@ def dfs(game):
 if __name__ == '__main__':
     weights = [1, 2, 15, 17]
     names = ['🙉', '🐰', '🐥', '🐌']
-    game = Game({n: w for n, w in zip(names, weights)})
+    game = Game(dict(zip(names, weights)))
 
     print('--- BFS ---')
     bfs_result = bfs(game)
